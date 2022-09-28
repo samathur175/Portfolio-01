@@ -35,3 +35,8 @@ const liTagSap = () => {
   });
 };
 liTagSap();
+
+// window.addEventListener("scroll", () => {
+//   const header = document.querySelector("header");
+//   header.classList.toggle("nav-scorll", window.scrollY > 0);
+// });
