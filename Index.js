@@ -18,6 +18,20 @@ const navslide = () => {
     });
     // Burger icon annimation
     burger.classList.toggle("toggle");
+
+    //Link seperator icons horizontal
   });
 };
 navslide();
+
+const liTagSap = () => {
+  const burger = document.querySelector(".burger");
+  const tagsap1 = document.getElementById("li-tag-seperator1");
+  const tagsap2 = document.getElementById("li-tag-seperator2");
+
+  burger.addEventListener("click", () => {
+    tagsap1.classList.remove("li-tag-seperator");
+    tagsap2.classList.remove("li-tag-seperator");
+  });
+};
+liTagSap();
