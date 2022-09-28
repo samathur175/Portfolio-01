@@ -27,13 +27,13 @@ header {
 }
 header .logo {
   margin-left: 10px;
-  position: relative;
+  position: relative fixed;
   font-weight: 700;
   color: #f9f9f9;
   text-decoration: none;
   font-size: 2rem;
   text-transform: uppercase;
-  transition: 0.6s;
+  transition: 0.4s;
   letter-spacing: 2px;
   opacity: 300%;
 }
@@ -54,7 +54,7 @@ header ul li a {
   font-size: 1em;
   text-decoration: none;
   margin: 0px 15px;
-  color: #ffffff;
+  color: #06283d;
   letter-spacing: 2px;
   transition: 0.6s;
 }
@@ -94,5 +94,16 @@ header .nav-scroll {
   padding: 5px 100px;
   background: #354259;
 }
-.card {
+.nav-btn {
+  border: 0;
+  background: local;
+}
+.nav-btn:hover {
+  margin-right: 4px;
+  height: 30px;
+  border-radius: 40px 40%;
+  width: max-content;
+  background-image: linear-gradient(to right, #ffd6ec, #47b5ff);
+  border: 0;
+  box-shadow: 4px 4px;
 }
