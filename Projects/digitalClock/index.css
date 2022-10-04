@@ -1,5 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 body {
   background-image: url("img/pexels-francesco-ungaro-1525041.jpg");
   background-color: #cccccc;
   background-size: 2400px 1200px;
+}
+.clock {
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  display: inline-flex;
+  margin-left: 35%;
+  margin-top: 15%;
+}
+.hour,
+.minutes,
+.seconds {
+  width: 5rem;
+  height: 4rem;
+  font-size: 3rem;
+  padding: 10px 10px 10px 10px;
+  font-family: "Anton", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-right: 20px;
+  text-align: center;
+  align-items: center;
+}
+.upper-div {
+  background-color: aqua;
+  height: 7rem;
+  width: 7rem;
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+}
+.lower-div {
+  background-color: #cccccc;
+  font-size: 1.35rem;
+  height: 3rem;
+  width: 7rem;
+  border-radius: 5px;
+}
+.am-pm {
+  font-family: "Anton", sans-serif;
+  background-color: cadetblue;
+  margin-top: 35%;
+  font-size: 3rem;
+  margin-right: 20px;
+  margin-left: 15px;
 }
