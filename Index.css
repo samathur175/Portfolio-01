@@ -126,3 +126,12 @@ footer {
   border: 0;
   box-shadow: 4px 4px;
 }
+.project-card-div {
+  padding: 20px 20px;
+  border: #000;
+}
+.Js-Calculator {
+  border-style: dotted;
+  border-width: 4px;
+  border-color: #354259;
+}
